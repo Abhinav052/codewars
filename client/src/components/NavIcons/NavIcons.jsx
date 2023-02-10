@@ -10,7 +10,19 @@ const NavIcons = () => {
   return (
     <div className="navIcons">
       <Link to="../home">
-        <img src={Home} alt="" />
+        {/* <img
+          src={Home}
+          alt=""
+          style={{ backgroundColor: "#512cf5", color: "#512cf5" }}
+        /> */}
+        <div
+          style={{
+            backgroundColor: "#512cf5",
+            color: "#512cf5",
+            width: "30px",
+            height: "30px",
+          }}
+        ></div>
       </Link>
       <UilSetting />
       <img src={Noti} alt="" />

@@ -6,9 +6,9 @@
   gap: 1rem;
   overflow-x: clip;
   background-color: var(--cardColor);
+  min-width: 100%;
 }
 
-/* Profile Images */
 .ProfileImages {
   position: relative;
   display: flex;
@@ -84,14 +84,14 @@
   border-left: 2px solid var(--hrColor);
 }
 
-
-
-
-.ProfileCard>span
-{
-    font-weight: bold;
-    color: orange;
-    align-self: center;
-    margin-bottom: 1rem;
-    cursor: pointer;
+.ProfileCard > span {
+  font-weight: bold;
+  color: #512cf5;
+  align-self: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.pfp {
+  height: 150px;
+  width: 50px;
 }

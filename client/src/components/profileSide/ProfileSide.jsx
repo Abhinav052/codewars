@@ -8,7 +8,6 @@ const ProfileSide = () => {
     <div className="ProfileSide">
       <LogoSearch />
       <ProfileCard location="homepage" />
-      {/* <FollowersCard/> */}
     </div>
   );
 };

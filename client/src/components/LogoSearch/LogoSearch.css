@@ -1,6 +1,10 @@
 .LogoSearch {
   display: flex;
+  flex-direction: column;
   gap: 0.75rem;
+}
+.lg {
+  width: 250px;
 }
 .Search {
   display: flex;
@@ -8,7 +12,7 @@
   border-radius: 10px;
   padding: 5px;
 }
-.Search>input {
+.Search > input {
   background-color: transparent;
   border: none;
   outline: none;
@@ -17,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(106.23deg, #f99827 0%, #f95f35 100%);
+  background: #512cf5;
   border-radius: 5px;
   padding: 4px;
   color: white;
